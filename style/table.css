@@ -1,0 +1,12 @@
+table {
+  background-color: blue;
+}
+
+tr {
+  background-color: white;
+}
+
+td {
+  border: 1px solid red;
+  padding: 1px 50px;
+}
