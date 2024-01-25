@@ -3,38 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>table</title>
   </head>
   <body>
-    <input type="text" value="미리입력된데이터값" />
-    <br />
-    <input type="textt" placeholder="데이터값의 힌트를명시하는속성" />
-    <br />
-    <input type="text" disabled />
-    <br />
-    <input type="checkbox" />checkbox
-    <br />
-    <label for="id">
-      <input type="checkbox" id="id" />라벨가능요소(input)의제목
-    </label>
-    <br />
-    <label for="">
-      <input type="checkbox" checked />cehcked속성추가새로고침해보면앎
-    </label>
-    <br />
-    <label for=""> <input type="radio" name="후보그룹" /> 1 번 후보 </label>
-    <label for=""> <input type="radio" name="후보그룹" /> 2 번 후보 </label>
-    <br />
-    <input
-      type="text"
-      value="heropy"
-      placeholder="type text, value hgeropy placeholder 힌트"
-    />
-    <br />
-    <label for=""> <input type="radio" name="fruits" />Apple </label>
-    <label for=""> <input type="radio" name="fruits" />Banana </label>
-    <br />
-    <label for=""> <input type="radio" name="fruits" />Apple2 </label>
-    <label for=""> <input type="radio" name="fruit" />Banana2 </label>
+    <table>
+      <!--부모tr행: 행 tr이 먼저. tr2개면 2행으로 시작 tr3개면 3행 -->
+      <tr>
+        <td>1행1열</td>
+        <td>1행2열</td>
+      </tr>
+      <tr>
+        <td>2행1열</td>
+        <td>2행2열</td>
+      </tr>
+      <!-- 자식td열: 열은 table data 인 td를 만듬 -->
+    </table>
   </body>
 </html>
